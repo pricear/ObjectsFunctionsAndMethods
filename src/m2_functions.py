@@ -3,12 +3,12 @@ Practice DEFINING and CALLING
      FUNCTIONS
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Alexis Price.
 """
 
 ########################################################################
 #
-# TODO: 1. PUT YOUR NAME IN THE ABOVE LINE and...
+# Done: 1. PUT YOUR NAME IN THE ABOVE LINE and...
 #
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
@@ -34,6 +34,8 @@ def main():
     window = rg.TurtleWindow()
 
     turtle1()
+    turtle4()
+    turtle5()
     turtle3()
     turtle2()
     turtle2()
@@ -103,9 +105,51 @@ def turtle3():
     maja.end_fill()
 
 
+def turtle4():
+    Lucas = rg.SimpleTurtle(shape='turtle')
+    Lucas.pen = rg.Pen('orange', 20)
+    Lucas.paint_bucket = rg.PaintBucket('orchid')
+
+    Lucas.right(87)
+    Lucas.forward(100)
+    Lucas.left(20)
+    Lucas.backward(250)
+
+    Lucas.begin_fill()
+    Lucas.draw_square(100)
+    Lucas.end_fill()
+
+
+def turtle5():
+    Alexis = rg.SimpleTurtle(shape='circle')
+    Alexis.pen= rg.Pen('red',15)
+    Alexis.paint_bucket = rg.PaintBucket ('pink')
+
+    Alexis.right(90)
+    Alexis.forward(200)
+    Alexis.right(95)
+    Alexis.forward(100)
+
+    Alexis.begin_fill()
+    Alexis.draw_regular_polygon(8,50)
+    Alexis.end_fill()
+
+    Brianna = rg.SimpleTurtle(shape='square')
+    Brianna.pen = rg.Pen('pale violet red', 10)
+    Brianna.paint_bucket = rg.PaintBucket('PaleGreen')
+
+    Brianna.left(90)
+    Brianna.backward(100)
+    Brianna.left(25)
+    Brianna.backward(100)
+
+    Brianna.begin_fill()
+    Brianna.draw_regular_polygon(5, 60)
+    Brianna.end_fill()
+
 ########################################################################
 #
-# TODO: 2.
+# Done: 2.
 #   READ the code above.  Be sure you understand:
 #     -- How many functions are defined above?
 #           (Answer: 4)
@@ -137,7 +181,7 @@ def turtle3():
 
 ########################################################################
 #
-# TODO: 3.
+# Done: 3.
 #   Define another function,
 #   immediately below the end of the definition of   turtle3   above.
 #   Name your new function   turtle4.
@@ -167,7 +211,7 @@ def turtle3():
 
 ########################################################################
 #
-# TODO: 4.
+# Done: 4.
 #   Add a line to   main   that CALLS your new function immediately
 #   AFTER  main  calls turtle1.  So:
 #     -- the SimpleTurtle from turtle1 should move,
