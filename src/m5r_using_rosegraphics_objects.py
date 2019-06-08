@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 ########################################################################
 #
-# TODO: 2.
+# Done: 2.
 #   RUN this program.  Then answer the following,
 #     GETTING HELP AS NEED! (Ask questions!!!)
 #
@@ -53,7 +53,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #            It updates the shaped that are attached to the window and then draws those shapes.
 #
 #     g. When is a RoseWindow close_on_mouse_click method call necessary?  Why?
-#            It is always necessary because if not, then the window will just automatically close. 
+#            It is always necessary because if not, then the window will just automatically close.
 #
 #   ASK QUESTIONS ** NOW ** if you do not understand how the
 #     RoseGraphics graphics system works.
